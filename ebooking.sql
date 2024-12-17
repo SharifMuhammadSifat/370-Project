@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 17, 2024 at 08:20 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Generation Time: Dec 17, 2024 at 09:20 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -61,7 +61,9 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`CustomerID`, `Name`, `Email`, `Password`, `ProfileDetails`) VALUES
-('1', 'Habib', 'habibi69@nomail.com', '123', 'I am gay');
+('1', 'Habib', 'habibi69@nomail.com', '123', 'I am gay'),
+('2', 'samir', 'samir@ok.com', '123', 'okay'),
+('250', 'samir', 'samir@ok.com', '123', 'okay');
 
 -- --------------------------------------------------------
 
